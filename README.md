@@ -109,6 +109,10 @@ The encoding is fully reversible:
 
 When `scramble=True`, a multiplicative scrambling function spreads sequential inputs across the ID space while remaining fully reversible.
 
+## Acknowledgements
+
+This project is a fork of [django-sqids](https://github.com/julianwachholz/django-sqids) by Julian Wachholz, which provides Sqids-based ID encoding for Django models. We're grateful to the django-sqids contributors for laying the groundwork that made django-hrid possible.
+
 ## License
 
 MIT
